@@ -329,12 +329,12 @@ long ofxUrgDevice::maxDistance() const
 
 int ofxUrgDevice::maxScanIndex() const
 {
-    return maxScanIndex();
+    return pImpl->maxScanIndex();
 }
 
 double ofxUrgDevice::maxScanAngle() const
 {
-    return maxScanAngle();
+    return pImpl->maxScanAngle();
 }
 
 double ofxUrgDevice::index2rad(const int index) const
