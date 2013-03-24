@@ -7,55 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0713ead0d3ac1d59f128d463fda1d9b1 /* UrgData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0221042a3dccfefb8c6d9a386ae4b145 /* UrgData.cpp */; };
 		0a3ced76a793ee7d2761ca1ef47f7ce6 /* MonitorModeManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48b3e8da4a55f5cb5898d4d7b05190c7 /* MonitorModeManager.cpp */; };
-		0d98e43ab0144630ef2206b3f3fdd8ad /* guiTypeButtonSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8f5afda23de220f49ea17cbc7f5b9bb8 /* guiTypeButtonSlider.cpp */; };
 		108eb9134e70c837f829b87cd2749ce0 /* mConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8d8de8fea0579951b84cc5e6166acb80 /* mConnection.cpp */; };
+		13a5cf8f884920de9f2b5881c649f9b1 /* BoundingBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = fdb4dd9779a251e9be220ae016e6d11a /* BoundingBox.cpp */; };
 		14aa668b2f0d234c185f80be0849ff6e /* SerialDevice_lin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2121e855239f96fdbdcf3fef5168d45a /* SerialDevice_lin.cpp */; };
 		1f4dedf21cdb869d476668f6f633e415 /* system_delay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6e7b53eebe536908f877da56ecafb5df /* system_delay.cpp */; };
 		2020418387d4185d94738ee0b1459479 /* ConnectionUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84367913057e2c43bb9c19e26c70f21d /* ConnectionUtils.cpp */; };
 		28975ed839561ad6a063a0877de93463 /* UrgCtrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2a237fb0c62d48f6f85666ab75fd024e /* UrgCtrl.cpp */; };
-		2b11014060cfa00ea494fbc6fbb71886 /* guiTypeTextDropDown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4f64d7dd70c6b5b1fc395ded45f21650 /* guiTypeTextDropDown.cpp */; };
-		314d78311d80062369e1827b37eb323a /* guiTypeChartPlotter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3d66885fa7c19b7830ee08edd67006c6 /* guiTypeChartPlotter.cpp */; };
 		32d7e25027cbe8ffbf0d7c138b64ea74 /* SdlInit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = c0ebe697f7eed0581e9724b8d2b83d81 /* SdlInit.cpp */; };
 		3da7767e1c80bc4eb0c5d309556fac4b /* MonitorDataHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2a9fc810e0a0ee2a5d552d3584c3c802 /* MonitorDataHandler.cpp */; };
 		3e5e7012c5a1a2ccd41696e7ffbf35c7 /* delay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = d6fb679d3f4a88be60455789e3dd9246 /* delay.cpp */; };
 		3fa31b1374d3c374d0b24ad91c786144 /* MonitorModeManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49aff3ba9d1530e664aef60a538399d2 /* MonitorModeManager.cpp */; };
 		4199c1855aac3bcb2fbfc509b36e5c08 /* TcpipServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1b9aeffc58363fee7ffb2afe34102270 /* TcpipServer.cpp */; };
-		41bcf7021939202f70e232a1937a7536 /* guiValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9f91d61ed1c9efa6a2acdc47683684d1 /* guiValue.cpp */; };
-		41d65a061e305afd52e53551477eff71 /* guiTypeDrawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = eac15439b87dc40c3609393b8b773852 /* guiTypeDrawable.cpp */; };
 		437e166834ba2195f285e1c59e63253b /* SerialDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10423613ac398479862681adfa981308 /* SerialDevice.cpp */; };
 		443c05f4b28260ab5de3132a268a7c3b /* mUrgDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02fd13dac26cb6c7ec945b7d0f177f81 /* mUrgDevice.cpp */; };
 		467d509dfea2eb553eec6d255dde0c34 /* ScipHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8870473134bf16d8a1a48f82953d2dcc /* ScipHandler.cpp */; };
 		46c9fae2b9cb1e3993bba19282b9c617 /* SocketSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8ee9367ba8a6178f40d994e32dfb485f /* SocketSet.cpp */; };
-		495a92a35ac1d16e07ca45c7895ac059 /* guiTypeCustom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = cfed64139bf049d0e6e85b064f9b17e3 /* guiTypeCustom.cpp */; };
 		49e6166b37b223150e6103c5469f36d6 /* isUsingComDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 538a3a38e3f0beca8f1ca931b5386c25 /* isUsingComDriver.cpp */; };
-		4a71e37d7f36f23aa123eb0b7298fbd7 /* guiTypeSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5cd68ca8fe136c3be208703b64644d80 /* guiTypeSlider.cpp */; };
 		4e6a4ea3144c2ddc0eab5f50f97e00ea /* TcpipSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 474c0831060765a65ff10a4f22afe7cc /* TcpipSocket.cpp */; };
 		5684091a504023691df8e98c9a76508c /* LogNameHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5340f7bc8cc27c63e5d6313d0e17cdcb /* LogNameHolder.cpp */; };
 		5a4349e9754d6fa14c0f2a3a1abc30b6 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = fc5da1c87211d4f6377da7199d8c5a1e /* tinyxmlparser.cpp */; };
-		5ab5747e5ef615d728fe9c6770d36338 /* guiTypeLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = cfc7a1f656c34688d0ea0d0c1c3a4f77 /* guiTypeLabel.cpp */; };
 		5cf66a3743f6109bcf8869c8a7beb564 /* Semaphore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04984c4e01c7e3dd3caf89ff06bb55e1 /* Semaphore.cpp */; };
 		5d84ad6b3c3885e0d5e5fc161b770a4d /* LockGuard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0b81cb1fd52f96a5e1ef7df0d5277a50 /* LockGuard.cpp */; };
-		5fd445ed4a5bb42065a63ec587255c59 /* guiTextBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9a234a6e775bfc7c47b1e336c269e9d6 /* guiTextBase.cpp */; };
-		62884d3fce003c390f94ab7d10c8ebbd /* guiColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = d859bbb55780da0d9098dbd273a5558a /* guiColor.cpp */; };
 		63b57ac5bf4ef088491e0317dbb2ecaa /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50df87d612c5aae17aafa6c02c6bc570 /* ofxXmlSettings.cpp */; };
 		67a2d8a13f703bb427817d013deb0a50 /* log_printf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4f94473d9ce437152e13c2d22dbd55ca /* log_printf.cpp */; };
 		6a6e685d3c2a8c3b6699def6c99e567c /* UrgServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38b0002c396346162300ca6dcf28f3c3 /* UrgServer.cpp */; };
-		7830622d2831d72613a1d3ce28b57561 /* guiCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0623a592865192daf866ec80ca011055 /* guiCallback.cpp */; };
 		78e4e85486cef8f4c207012816bdb904 /* Angle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = d3408d8537d4cca6d69e84a91b5fb2c6 /* Angle.cpp */; };
 		7fbc39f6376295d13a43542bdd859a02 /* ofxUrgDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3eb3d8fe0198933b2bb95477221c9fde /* ofxUrgDevice.cpp */; };
 		812f2f7c05311d5b57074894de546c29 /* UrgUsbCom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61fac673f2389bccf5747f2ab39f57a9 /* UrgUsbCom.cpp */; };
-		849341dbc7a5374c26ac05244b29bc9e /* guiTypeToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62121ab82e8c23f11bbc56e4abc4727d /* guiTypeToggle.cpp */; };
-		871af250136390c0a8f657da3eb6dcc9 /* guiTypeVairableLister.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76ac9361add00e0a97505518e72834fa /* guiTypeVairableLister.cpp */; };
-		8a230fb96662fb1ab1611b8abe9f6648 /* simpleColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = a8f5d6546b2050363e0433580bf92e20 /* simpleColor.cpp */; };
-		8c3ba55a2996325bb57889a37b609e11 /* guiTypeTextInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = db609b0a16264158c61c979fbac10a4e /* guiTypeTextInput.cpp */; };
 		933a2227713c720ceff80fd967d0a8ee /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2b40eda85beb63e46785bc299a638898 /* tinyxml.cpp */; };
 		94d005ca7fb823a505707159a4486074 /* MathUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0097ccefdc856f31530ec9c2e6691c77 /* MathUtils.cpp */; };
 		98f39a6040397c47982df0da54e2cb40 /* findUrgPorts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45f8fd82b277a89160e0a97302b13a77 /* findUrgPorts.cpp */; };
-		9b36fec1f9a02af09246572b4e0e915e /* guiTypeText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25f371915e6771cea7595d51145f19cc /* guiTypeText.cpp */; };
 		9d44dc88ef9e7991b4a09951e2e4769f /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832bdc407620cdba568b713d2252c43c /* tinyxmlerror.cpp */; };
-		9d97fdf450cc66e11f05e2794f9b9cc8 /* guiTypePanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08549d86f2263bafa64ae5d19077e4e9 /* guiTypePanel.cpp */; };
-		9fef7afad4ddffd2a55aa54a1c323431 /* simpleFileLister.cpp in Sources */ = {isa = PBXBuildFile; fileRef = bdd9e60039a29dafb013cdbda2b6bd7f /* simpleFileLister.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -76,27 +60,18 @@
 		E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */; };
 		E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E715D3B6510020DFD4 /* QTKit.framework */; };
 		E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F985F515E0DE99003869B5 /* Accelerate.framework */; };
-		FB60C17916CFDEAE00AE57EC /* libSDL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB60C17816CFDEAE00AE57EC /* libSDL.a */; };
-		FB60C17B16CFDEC200AE57EC /* libSDL_net.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB60C17A16CFDEC200AE57EC /* libSDL_net.a */; };
+		FB62A99516E4EE5100A50A4D /* libSDL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB62A99416E4EE5100A50A4D /* libSDL.a */; };
+		FB62A99816E4EE5E00A50A4D /* libSDL_net.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB62A99716E4EE5E00A50A4D /* libSDL_net.a */; };
 		a3413fe541cc5be4e76a92ed4ee58652 /* UrgDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 061356e49445ec7e8c4ac80cef51ab2a /* UrgDevice.cpp */; };
 		aad0ac1678031eb62e74a0455a56f878 /* split.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01afbd7b9aaced97039b603d8db09335 /* split.cpp */; };
 		b01f7524c7a787fd30840ad292d8b1e2 /* ticks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19d34ddcadd8223366e551b5be8048a9 /* ticks.cpp */; };
 		b172031417f8244d866e178a5f72fb0d /* SerialDevice_win.cpp in Sources */ = {isa = PBXBuildFile; fileRef = acb78d9a79f2fb408e7cb7a97281e0e7 /* SerialDevice_win.cpp */; };
-		c6a9ec27e2608c434bca1db9670983ad /* guiType2DSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = f740139603d171038c4e1057e0394011 /* guiType2DSlider.cpp */; };
-		cba68ad61765b24c0bfd9886a8523d3f /* guiBaseObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6b7d7ecc5a662345912c93d5d7bfc68e /* guiBaseObject.cpp */; };
-		cbe57d7c657c0b7fd01028646410940e /* guiTypeMultiToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = bf1e9a470f4b02d30b8b1d188bd63663 /* guiTypeMultiToggle.cpp */; };
 		cc505e2cdd218eb2b8d09c5df48feee2 /* SdlNetInit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ab8c5ba16812990bb997da83c71cc662 /* SdlNetInit.cpp */; };
 		d0e614d0a8df45b77fbdf1f65eee8ca4 /* FindComPorts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 257c0fb056ae2c1de5c6bdb8360a3ea8 /* FindComPorts.cpp */; };
-		d41b30cf66da734f99a45d5e96d168e4 /* simpleLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = c15bfba225f9d1cf5780bd5e550a6dc1 /* simpleLogger.cpp */; };
-		da78a8ae11597b5e43dfe903bdabcbcd /* guiTypeFileLister.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7e8a185410d2b5002305515abd6cb8a1 /* guiTypeFileLister.cpp */; };
 		daf67649987d626ae234d502710e106e /* DeviceIpManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6e13f7e0bef92937b87eeea6de6edca1 /* DeviceIpManager.cpp */; };
 		db5d417686b7d38e7c5b8f999ac50880 /* Lock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75d8ca37eb400d2ec7ba451f86a8c1a0 /* Lock.cpp */; };
 		dba38f633717f9600f628db6d820530d /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = d70128bee4852502298a591cfb4a4778 /* Thread.cpp */; };
-		dbf52d494f6e2499e17acbf8785cfb84 /* guiTypeVideo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = c5bb6d7a0c3a9d760bc22bbbe966990f /* guiTypeVideo.cpp */; };
 		e298d7a37e2df91c50766b3f9188fe28 /* Coordinate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6c09dbcd79f4961a93ef33e235462ddf /* Coordinate.cpp */; };
-		e8999cbb9c2c6f093a5bd013c99eaebb /* ofxControlPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ed318057376feda301bd823e84e09b0f /* ofxControlPanel.cpp */; };
-		e8a48d51b598b0e8012410d2e2815117 /* guiCallbackValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = d51169f112943bb2022a756aaa3cb7e4 /* guiCallbackValue.cpp */; };
-		eda6787f2e8def6246cf24d36747a7f3 /* guiTypeLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589362a07aeb006b1b8be93fca0c021a /* guiTypeLogger.cpp */; };
 		ef7af24c1b3a48375461ecc4864cb2e0 /* system_ticks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ab888c3d6363bc2b23aff06ea3b4a937 /* system_ticks.cpp */; };
 		f8f8dbba0db685b86ce0c48cb7ae8600 /* MonitorEventScheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68117fe81ca4581d50488296af8297b0 /* MonitorEventScheduler.cpp */; };
 /* End PBXBuildFile section */
@@ -137,143 +112,136 @@
 		015daa4ebbbe90aa6b98361f18ddb744 /* log_printf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = log_printf.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/log_printf.h; sourceTree = SOURCE_ROOT; };
 		01afbd7b9aaced97039b603d8db09335 /* split.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = split.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/common/split.cpp; sourceTree = SOURCE_ROOT; };
 		01dcc0911400f9acf5b65578af4ec8f9 /* ofxXmlSettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxXmlSettings.h; path = ../../../addons/ofxXmlSettings/src/ofxXmlSettings.h; sourceTree = SOURCE_ROOT; };
+		0221042a3dccfefb8c6d9a386ae4b145 /* UrgData.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = UrgData.cpp; path = ../../../addons/ofxUrgDevice/src/UrgData.cpp; sourceTree = SOURCE_ROOT; };
+		02677fa320d6c63b228a7562514b9d55 /* ofxUIWidgetWithLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIWidgetWithLabel.h; path = ../../../addons/ofxUI/src/ofxUIWidgetWithLabel.h; sourceTree = SOURCE_ROOT; };
 		02fd13dac26cb6c7ec945b7d0f177f81 /* mUrgDevice.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = mUrgDevice.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/mUrgDevice.cpp; sourceTree = SOURCE_ROOT; };
 		04984c4e01c7e3dd3caf89ff06bb55e1 /* Semaphore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Semaphore.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/Semaphore.cpp; sourceTree = SOURCE_ROOT; };
 		05a1df9c4d5c579e36785d2fbe20b0ab /* ConditionVariable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ConditionVariable.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/ConditionVariable.h; sourceTree = SOURCE_ROOT; };
 		05de6043af7b3d4111f5d85a118fb8a7 /* Angle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Angle.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/Angle.h; sourceTree = SOURCE_ROOT; };
 		061356e49445ec7e8c4ac80cef51ab2a /* UrgDevice.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = UrgDevice.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/UrgDevice.cpp; sourceTree = SOURCE_ROOT; };
-		0623a592865192daf866ec80ca011055 /* guiCallback.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiCallback.cpp; path = ../../../addons/ofxControlPanel/src/guiCallback.cpp; sourceTree = SOURCE_ROOT; };
 		06b7acb031643593ed1ec61a7ecf628c /* Thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Thread.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/Thread.h; sourceTree = SOURCE_ROOT; };
-		08549d86f2263bafa64ae5d19077e4e9 /* guiTypePanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypePanel.cpp; path = ../../../addons/ofxControlPanel/src/guiTypePanel.cpp; sourceTree = SOURCE_ROOT; };
 		0a9cbfbc03a7c31e533b1d133865f5bc /* Thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Thread.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/Thread.h; sourceTree = SOURCE_ROOT; };
 		0b81cb1fd52f96a5e1ef7df0d5277a50 /* LockGuard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = LockGuard.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/LockGuard.cpp; sourceTree = SOURCE_ROOT; };
 		0cdb9914ead11ebd51884769b7951c2a /* MonitorModeManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MonitorModeManager.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/MonitorModeManager.h; sourceTree = SOURCE_ROOT; };
-		0d1ff930b42368e7df128f5cd1ea7466 /* guiVariablePointer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiVariablePointer.h; path = ../../../addons/ofxControlPanel/src/guiVariablePointer.h; sourceTree = SOURCE_ROOT; };
 		10423613ac398479862681adfa981308 /* SerialDevice.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SerialDevice.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/SerialDevice.cpp; sourceTree = SOURCE_ROOT; };
-		1445907105c17263f76087d0df1a696e /* guiTypeVairableLister.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeVairableLister.h; path = ../../../addons/ofxControlPanel/src/guiTypeVairableLister.h; sourceTree = SOURCE_ROOT; };
 		145b81b13002a5aef303c9b60f1d7fc7 /* mConnection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mConnection.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/mConnection.h; sourceTree = SOURCE_ROOT; };
+		15c99204ff4d8d72ad034b63f410265d /* ofxUINumberDialer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUINumberDialer.h; path = ../../../addons/ofxUI/src/ofxUINumberDialer.h; sourceTree = SOURCE_ROOT; };
+		15e69017b5db282ef100ee15e7bce594 /* ofxUICustomImageButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUICustomImageButton.h; path = ../../../addons/ofxUI/src/ofxUICustomImageButton.h; sourceTree = SOURCE_ROOT; };
 		16f3c02ffd0e39dd3a94031fc6eae29c /* MonitorModeManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MonitorModeManager.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/MonitorModeManager.h; sourceTree = SOURCE_ROOT; };
 		17804bbe1a6c933b89c4b490d3dd1280 /* DetectOS.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DetectOS.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/DetectOS.h; sourceTree = SOURCE_ROOT; };
+		1902452f5e510a2dbc1e5bd6d62db983 /* ofxUIMultiImageToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIMultiImageToggle.h; path = ../../../addons/ofxUI/src/ofxUIMultiImageToggle.h; sourceTree = SOURCE_ROOT; };
 		1954cb2413574d18ae595f4dc442297d /* SocketSet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SocketSet.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/sdl/SocketSet.h; sourceTree = SOURCE_ROOT; };
 		19d34ddcadd8223366e551b5be8048a9 /* ticks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ticks.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/ticks.cpp; sourceTree = SOURCE_ROOT; };
 		1b9aeffc58363fee7ffb2afe34102270 /* TcpipServer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = TcpipServer.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/sdl/TcpipServer.cpp; sourceTree = SOURCE_ROOT; };
 		1c07cc0b16d2d8a6ec55e62f8988a5bc /* LogNameHolder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = LogNameHolder.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/LogNameHolder.h; sourceTree = SOURCE_ROOT; };
 		1c9c4817cb2a46da761f1524e7c2eae9 /* mUrgDevice.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mUrgDevice.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/mUrgDevice.h; sourceTree = SOURCE_ROOT; };
-		1d8b9a8480a5b3d82cefff066dafba2e /* simpleFileLister.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = simpleFileLister.h; path = ../../../addons/ofxControlPanel/src/simpleFileLister.h; sourceTree = SOURCE_ROOT; };
-		1e17b07da944407ec011b0b794da1a9e /* guiXmlValue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiXmlValue.h; path = ../../../addons/ofxControlPanel/src/guiXmlValue.h; sourceTree = SOURCE_ROOT; };
+		1e29c7e8c47e3e2db1c5876646df436b /* ofxUIRectangle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIRectangle.h; path = ../../../addons/ofxUI/src/ofxUIRectangle.h; sourceTree = SOURCE_ROOT; };
 		1e9c520aca795872efb20e0009d1853b /* SDL_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_config.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_config.h; sourceTree = SOURCE_ROOT; };
 		20618a0f0ae99d18e5c8291250fe12bd /* SDL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL.h; sourceTree = SOURCE_ROOT; };
 		2070a69337d294b7537d39885cc4172f /* UrgServer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UrgServer.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/UrgServer.h; sourceTree = SOURCE_ROOT; };
 		2121e855239f96fdbdcf3fef5168d45a /* SerialDevice_lin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SerialDevice_lin.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/SerialDevice_lin.cpp; sourceTree = SOURCE_ROOT; };
 		247e3a7d9f0dbb8ee2cda84232e5b4bd /* isUsingComDriver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = isUsingComDriver.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/isUsingComDriver.h; sourceTree = SOURCE_ROOT; };
 		257c0fb056ae2c1de5c6bdb8360a3ea8 /* FindComPorts.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FindComPorts.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/FindComPorts.cpp; sourceTree = SOURCE_ROOT; };
-		25f371915e6771cea7595d51145f19cc /* guiTypeText.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeText.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeText.cpp; sourceTree = SOURCE_ROOT; };
 		2713548dd46b6834a2e4e97cbbc0fac9 /* MathUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MathUtils.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/MathUtils.h; sourceTree = SOURCE_ROOT; };
-		29897723d8c99bc3f4c66556d572e651 /* guiTypeFileLister.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeFileLister.h; path = ../../../addons/ofxControlPanel/src/guiTypeFileLister.h; sourceTree = SOURCE_ROOT; };
 		2a237fb0c62d48f6f85666ab75fd024e /* UrgCtrl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = UrgCtrl.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/UrgCtrl.cpp; sourceTree = SOURCE_ROOT; };
 		2a9fc810e0a0ee2a5d552d3584c3c802 /* MonitorDataHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = MonitorDataHandler.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/MonitorDataHandler.cpp; sourceTree = SOURCE_ROOT; };
 		2b40eda85beb63e46785bc299a638898 /* tinyxml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxml.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
 		2c1552d2ddc81106441216da2dfc79b9 /* SDL_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_platform.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_platform.h; sourceTree = SOURCE_ROOT; };
 		2cd27e4a4f4b05b67b6e0406a585f646 /* SDL_byteorder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_byteorder.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_byteorder.h; sourceTree = SOURCE_ROOT; };
-		2d692a0570a93567d01b6d9d82742863 /* guiTypeTextDropDown.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeTextDropDown.h; path = ../../../addons/ofxControlPanel/src/guiTypeTextDropDown.h; sourceTree = SOURCE_ROOT; };
+		2d394124f88f348aa4142dcfb64b4bd1 /* ofxUIImageToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIImageToggle.h; path = ../../../addons/ofxUI/src/ofxUIImageToggle.h; sourceTree = SOURCE_ROOT; };
+		2dd185513a2875ec8a07867018e8bd02 /* ofxUIBiLabelSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIBiLabelSlider.h; path = ../../../addons/ofxUI/src/ofxUIBiLabelSlider.h; sourceTree = SOURCE_ROOT; };
+		32bd050a579633adbca5af6b202f651b /* ofxUIWidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIWidget.h; path = ../../../addons/ofxUI/src/ofxUIWidget.h; sourceTree = SOURCE_ROOT; };
 		3309bdd191bac8ced2986d1b8183eb3e /* FindComPorts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FindComPorts.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/FindComPorts.h; sourceTree = SOURCE_ROOT; };
 		348fee03018ed766af5476b4501aa243 /* CaptureSettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = CaptureSettings.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/CaptureSettings.h; sourceTree = SOURCE_ROOT; };
+		36b562f37bb24b37f0e620a7dcd1ae7b /* UrgData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UrgData.h; path = ../../../addons/ofxUrgDevice/src/UrgData.h; sourceTree = SOURCE_ROOT; };
 		376c94f192c0dbbd7bd3f5d2593cc821 /* TcpipServer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TcpipServer.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/sdl/TcpipServer.h; sourceTree = SOURCE_ROOT; };
 		377e65a227833b13109fd0216c1a0d1e /* SdlNetInit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SdlNetInit.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/sdl/SdlNetInit.h; sourceTree = SOURCE_ROOT; };
 		3817df0de76a0b461ac6958136f4b69e /* SDL_cdrom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_cdrom.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_cdrom.h; sourceTree = SOURCE_ROOT; };
 		38b0002c396346162300ca6dcf28f3c3 /* UrgServer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = UrgServer.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/UrgServer.cpp; sourceTree = SOURCE_ROOT; };
 		393474388340acbdc178ca970a92207f /* Semaphore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Semaphore.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/Semaphore.h; sourceTree = SOURCE_ROOT; };
-		3a18b217ea10ea8e3c7f6508f5b5186d /* guiTypeChartPlotter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeChartPlotter.h; path = ../../../addons/ofxControlPanel/src/guiTypeChartPlotter.h; sourceTree = SOURCE_ROOT; };
-		3d66885fa7c19b7830ee08edd67006c6 /* guiTypeChartPlotter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeChartPlotter.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeChartPlotter.cpp; sourceTree = SOURCE_ROOT; };
 		3df0117feff8caa4a53ac604d1e45a2c /* SDL_keysym.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_keysym.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_keysym.h; sourceTree = SOURCE_ROOT; };
-		3eb3d8fe0198933b2bb95477221c9fde /* ofxUrgDevice.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxUrgDevice.cpp; path = ../../../addons/ofxUrgDevice/src/ofxUrgDevice.cpp; sourceTree = SOURCE_ROOT; };
+		3e67473c6a161c4dd09fd3735f166c87 /* BoundingBox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BoundingBox.h; path = src/BoundingBox.h; sourceTree = SOURCE_ROOT; };
+		3eb3d8fe0198933b2bb95477221c9fde /* ofxUrgDevice.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxUrgDevice.cpp; path = ../../../addons/ofxUrgDevice/src/ofxUrgDevice.cpp; sourceTree = SOURCE_ROOT; };
+		4117b8c24d49837d3df9c23bd2405bdc /* ofxUIToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIToggle.h; path = ../../../addons/ofxUI/src/ofxUIToggle.h; sourceTree = SOURCE_ROOT; };
 		41eddd0115ebc296b56084deb90b6f17 /* SDL_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_joystick.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_joystick.h; sourceTree = SOURCE_ROOT; };
-		433f1a9af67f62a5c34f5c8fc2781d43 /* ofxAutoControlPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAutoControlPanel.h; path = ../../../addons/ofxControlPanel/src/ofxAutoControlPanel.h; sourceTree = SOURCE_ROOT; };
+		431d6bbf1ef545b203e4cae1dda8512f /* ofxUIMultiImageSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIMultiImageSlider.h; path = ../../../addons/ofxUI/src/ofxUIMultiImageSlider.h; sourceTree = SOURCE_ROOT; };
 		443b49231f71c64912c7bbbb981905d4 /* CaptureSettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = CaptureSettings.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/CaptureSettings.h; sourceTree = SOURCE_ROOT; };
 		45f8fd82b277a89160e0a97302b13a77 /* findUrgPorts.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = findUrgPorts.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/findUrgPorts.cpp; sourceTree = SOURCE_ROOT; };
 		467d2629c5f4edd638d03d948186e873 /* SDL_loadso.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_loadso.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_loadso.h; sourceTree = SOURCE_ROOT; };
+		470b5d2ac2f616d10b2e6025718527c8 /* ofxUISlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUISlider.h; path = ../../../addons/ofxUI/src/ofxUISlider.h; sourceTree = SOURCE_ROOT; };
 		474c0831060765a65ff10a4f22afe7cc /* TcpipSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = TcpipSocket.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/sdl/TcpipSocket.cpp; sourceTree = SOURCE_ROOT; };
 		48b3e8da4a55f5cb5898d4d7b05190c7 /* MonitorModeManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = MonitorModeManager.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/MonitorModeManager.cpp; sourceTree = SOURCE_ROOT; };
 		49aff3ba9d1530e664aef60a538399d2 /* MonitorModeManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = MonitorModeManager.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/MonitorModeManager.cpp; sourceTree = SOURCE_ROOT; };
-		49ca6f47242293daf5a715a8d69ddebe /* simpleColor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = simpleColor.h; path = ../../../addons/ofxControlPanel/src/simpleColor.h; sourceTree = SOURCE_ROOT; };
+		4aea0d08c3b0323fedc8d9749c9217ea /* ofxUIImageSampler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIImageSampler.h; path = ../../../addons/ofxUI/src/ofxUIImageSampler.h; sourceTree = SOURCE_ROOT; };
 		4b30ffbd9be3482b7373e09129f9b686 /* DeviceIpManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DeviceIpManager.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/DeviceIpManager.h; sourceTree = SOURCE_ROOT; };
-		4bc67dbb14ff67076137af39e582178d /* guiValue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiValue.h; path = ../../../addons/ofxControlPanel/src/guiValue.h; sourceTree = SOURCE_ROOT; };
+		4c9b919b991b4e45bc5dc0dbf09c9904 /* ofxUIRadio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIRadio.h; path = ../../../addons/ofxUI/src/ofxUIRadio.h; sourceTree = SOURCE_ROOT; };
 		4d2bd70fe5f443c93795d4393857596f /* UrgCtrl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UrgCtrl.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/UrgCtrl.h; sourceTree = SOURCE_ROOT; };
-		4ed7010a59cfbff66dc17a56b3444a1f /* guiTypeButtonSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeButtonSlider.h; path = ../../../addons/ofxControlPanel/src/guiTypeButtonSlider.h; sourceTree = SOURCE_ROOT; };
-		4f64d7dd70c6b5b1fc395ded45f21650 /* guiTypeTextDropDown.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeTextDropDown.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeTextDropDown.cpp; sourceTree = SOURCE_ROOT; };
+		4ed7bc3af72f6be8f0917a303bedb573 /* ofxUIImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIImage.h; path = ../../../addons/ofxUI/src/ofxUIImage.h; sourceTree = SOURCE_ROOT; };
 		4f6dbff34d9acb9bfb3ae1799194bfa6 /* Connection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Connection.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/Connection.h; sourceTree = SOURCE_ROOT; };
 		4f94473d9ce437152e13c2d22dbd55ca /* log_printf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = log_printf.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/log_printf.cpp; sourceTree = SOURCE_ROOT; };
 		4fdd214185c45ae377e454af72d82da1 /* RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = RingBuffer.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/common/RingBuffer.h; sourceTree = SOURCE_ROOT; };
 		4fe0fcc67d91eb10b7e342b582fdde52 /* LockGuard.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = LockGuard.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/LockGuard.h; sourceTree = SOURCE_ROOT; };
+		4ff2f2d5a01ada37a9ade20fb41e7560 /* ofxUICanvas.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUICanvas.h; path = ../../../addons/ofxUI/src/ofxUICanvas.h; sourceTree = SOURCE_ROOT; };
 		501374589965d6c3bd05c481cb8159a7 /* delay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = delay.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/delay.h; sourceTree = SOURCE_ROOT; };
 		50df87d612c5aae17aafa6c02c6bc570 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxXmlSettings.cpp; path = ../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp; sourceTree = SOURCE_ROOT; };
+		531d8d09739d338239967b3a215e9cfd /* ofxUIDropDownList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIDropDownList.h; path = ../../../addons/ofxUI/src/ofxUIDropDownList.h; sourceTree = SOURCE_ROOT; };
 		5340f7bc8cc27c63e5d6313d0e17cdcb /* LogNameHolder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = LogNameHolder.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/LogNameHolder.cpp; sourceTree = SOURCE_ROOT; };
 		535b6c349c460dc878aeed48ce3e0f16 /* Point.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Point.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/geometry/Point.h; sourceTree = SOURCE_ROOT; };
 		538a3a38e3f0beca8f1ca931b5386c25 /* isUsingComDriver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = isUsingComDriver.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/isUsingComDriver.cpp; sourceTree = SOURCE_ROOT; };
 		53c490ac39458b64e975a1ab0e411e51 /* FindComPorts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FindComPorts.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/FindComPorts.h; sourceTree = SOURCE_ROOT; };
 		55b6a0cd53babef91923dc1b8894c07f /* SDL_audio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_audio.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_audio.h; sourceTree = SOURCE_ROOT; };
 		585897e9ac9b141f7ae7b0877c66c23a /* SDL_active.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_active.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_active.h; sourceTree = SOURCE_ROOT; };
-		589362a07aeb006b1b8be93fca0c021a /* guiTypeLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeLogger.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeLogger.cpp; sourceTree = SOURCE_ROOT; };
 		58f57b43608641a2dbd4c938c2e71775 /* DetectOS.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DetectOS.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/DetectOS.h; sourceTree = SOURCE_ROOT; };
+		5c48e3511951bb86fa9aa6420fa60cf9 /* ofxUIMovingGraph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIMovingGraph.h; path = ../../../addons/ofxUI/src/ofxUIMovingGraph.h; sourceTree = SOURCE_ROOT; };
 		5cbc8ede67085b12f4758af93069f3a4 /* findUrgPorts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = findUrgPorts.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/findUrgPorts.h; sourceTree = SOURCE_ROOT; };
-		5cd68ca8fe136c3be208703b64644d80 /* guiTypeSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeSlider.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeSlider.cpp; sourceTree = SOURCE_ROOT; };
 		61d33975b13c3bf8d941901e23bdd3dc /* RangeSensor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = RangeSensor.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/RangeSensor.h; sourceTree = SOURCE_ROOT; };
 		61fac673f2389bccf5747f2ab39f57a9 /* UrgUsbCom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = UrgUsbCom.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/UrgUsbCom.cpp; sourceTree = SOURCE_ROOT; };
-		62121ab82e8c23f11bbc56e4abc4727d /* guiTypeToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeToggle.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeToggle.cpp; sourceTree = SOURCE_ROOT; };
+		6248640c06b47042bb5bd3f21e730c74 /* ofxUILabelToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUILabelToggle.h; path = ../../../addons/ofxUI/src/ofxUILabelToggle.h; sourceTree = SOURCE_ROOT; };
+		64c6f7ad018ffd34c7abb6f2a2c0cec0 /* ofxUI.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUI.h; path = ../../../addons/ofxUI/src/ofxUI.h; sourceTree = SOURCE_ROOT; };
 		66478722beeadb56f8ab03de28c50534 /* IsUsbCom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IsUsbCom.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/IsUsbCom.h; sourceTree = SOURCE_ROOT; };
+		664d65407be633c038fa9498bcf62aa7 /* ofxUIFPSSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIFPSSlider.h; path = ../../../addons/ofxUI/src/ofxUIFPSSlider.h; sourceTree = SOURCE_ROOT; };
 		68117fe81ca4581d50488296af8297b0 /* MonitorEventScheduler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = MonitorEventScheduler.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/MonitorEventScheduler.cpp; sourceTree = SOURCE_ROOT; };
-		6b7d7ecc5a662345912c93d5d7bfc68e /* guiBaseObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiBaseObject.cpp; path = ../../../addons/ofxControlPanel/src/guiBaseObject.cpp; sourceTree = SOURCE_ROOT; };
 		6c09dbcd79f4961a93ef33e235462ddf /* Coordinate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Coordinate.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/coordinate/Coordinate.cpp; sourceTree = SOURCE_ROOT; };
 		6d2c530e006a742eebccd83a1002b608 /* SDL_net.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_net.h; path = ../../../addons/ofxUrgDevice/libs/SDL_NET/1.2.8/include/SDL/SDL_net.h; sourceTree = SOURCE_ROOT; };
-		6ddf13a4ef64524a9026ef50286b9127 /* guiColor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiColor.h; path = ../../../addons/ofxControlPanel/src/guiColor.h; sourceTree = SOURCE_ROOT; };
 		6e13f7e0bef92937b87eeea6de6edca1 /* DeviceIpManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = DeviceIpManager.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/DeviceIpManager.cpp; sourceTree = SOURCE_ROOT; };
 		6e7b53eebe536908f877da56ecafb5df /* system_delay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = system_delay.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/system_delay.cpp; sourceTree = SOURCE_ROOT; };
 		6efa8c7176b127dc16605ddbc1fca7a7 /* UrgUsbCom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UrgUsbCom.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/UrgUsbCom.h; sourceTree = SOURCE_ROOT; };
-		6f5e052edc8e42eb2bebfbb2c486ea9f /* ofxControlPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxControlPanel.h; path = ../../../addons/ofxControlPanel/src/ofxControlPanel.h; sourceTree = SOURCE_ROOT; };
-		6fcdf1191d78db4e5238ac4679f80383 /* guiTypeTextInput.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeTextInput.h; path = ../../../addons/ofxControlPanel/src/guiTypeTextInput.h; sourceTree = SOURCE_ROOT; };
 		7007cda396cfb50737b5cff97000012b /* SDL_video.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_video.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_video.h; sourceTree = SOURCE_ROOT; };
 		73fe407a1ee157958c2e799e5d024b1b /* RangeSensor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = RangeSensor.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/RangeSensor.h; sourceTree = SOURCE_ROOT; };
 		74ee8f9a3168456d36d688d770a8c754 /* SDL_rwops.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_rwops.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_rwops.h; sourceTree = SOURCE_ROOT; };
 		75d8ca37eb400d2ec7ba451f86a8c1a0 /* Lock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Lock.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/Lock.cpp; sourceTree = SOURCE_ROOT; };
-		76ac9361add00e0a97505518e72834fa /* guiTypeVairableLister.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeVairableLister.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeVairableLister.cpp; sourceTree = SOURCE_ROOT; };
 		77459d9afe18bda6584fe3d2715c8999 /* ConnectionUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ConnectionUtils.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/ConnectionUtils.h; sourceTree = SOURCE_ROOT; };
-		785ef65f14138ab610c0595e38a0016a /* guiCallbackValue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiCallbackValue.h; path = ../../../addons/ofxControlPanel/src/guiCallbackValue.h; sourceTree = SOURCE_ROOT; };
-		7b621bd2f5de1ff903fb7f2c711471bb /* simpleLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = simpleLogger.h; path = ../../../addons/ofxControlPanel/src/simpleLogger.h; sourceTree = SOURCE_ROOT; };
 		7e0ff2a2d748fa8d06265906a2a4d14f /* mConnection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mConnection.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/mConnection.h; sourceTree = SOURCE_ROOT; };
-		7e8a185410d2b5002305515abd6cb8a1 /* guiTypeFileLister.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeFileLister.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeFileLister.cpp; sourceTree = SOURCE_ROOT; };
 		7f6ba9e3025559aaa56aaad6b8ca9539 /* split.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = split.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/split.h; sourceTree = SOURCE_ROOT; };
 		807132180543d9255d5e253c8248f93c /* Position.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Position.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/geometry/Position.h; sourceTree = SOURCE_ROOT; };
-		8131428d7458ec1392831f6c7ddeae34 /* guiType2DSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiType2DSlider.h; path = ../../../addons/ofxControlPanel/src/guiType2DSlider.h; sourceTree = SOURCE_ROOT; };
-		815c422e69c6ffeeb97d1b0ad3d5ee55 /* guiTypeDrawable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeDrawable.h; path = ../../../addons/ofxControlPanel/src/guiTypeDrawable.h; sourceTree = SOURCE_ROOT; };
+		8178eb9aa3c0268331af3af347ca9d15 /* ofxUIToggleMatrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIToggleMatrix.h; path = ../../../addons/ofxUI/src/ofxUIToggleMatrix.h; sourceTree = SOURCE_ROOT; };
 		81c2bd2af4e86177b930acf11fdaf93f /* MonitorModeManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MonitorModeManager.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/MonitorModeManager.h; sourceTree = SOURCE_ROOT; };
-		82741786e8e6961c9b9ea2dff35d4d57 /* guiTypeToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeToggle.h; path = ../../../addons/ofxControlPanel/src/guiTypeToggle.h; sourceTree = SOURCE_ROOT; };
 		82c8cb8b31bcafb9dc285e62bb0869fc /* ticks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ticks.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/ticks.h; sourceTree = SOURCE_ROOT; };
 		832bdc407620cdba568b713d2252c43c /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlerror.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
 		84367913057e2c43bb9c19e26c70f21d /* ConnectionUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ConnectionUtils.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/ConnectionUtils.cpp; sourceTree = SOURCE_ROOT; };
 		846b486bfe538a616bb27cd114476b04 /* SDL_opengl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_opengl.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_opengl.h; sourceTree = SOURCE_ROOT; };
+		856bf5ab0322d0689ee63829f6f27a37 /* ofxUIRangeSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIRangeSlider.h; path = ../../../addons/ofxUI/src/ofxUIRangeSlider.h; sourceTree = SOURCE_ROOT; };
 		856ed82214c6d6fbdd864f7237cb4c2f /* MonitorDataHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MonitorDataHandler.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/MonitorDataHandler.h; sourceTree = SOURCE_ROOT; };
 		86c2d434ffd308ee75551c13edefc1da /* RangeSensorParameter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = RangeSensorParameter.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/RangeSensorParameter.h; sourceTree = SOURCE_ROOT; };
 		879c1261f1f00351ad71059a5f8040e8 /* LockGuard.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = LockGuard.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/LockGuard.h; sourceTree = SOURCE_ROOT; };
+		885850b62fad08eb1d2f0bf4a56e5e01 /* ofxUIRotarySlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIRotarySlider.h; path = ../../../addons/ofxUI/src/ofxUIRotarySlider.h; sourceTree = SOURCE_ROOT; };
 		8870473134bf16d8a1a48f82953d2dcc /* ScipHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ScipHandler.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/ScipHandler.cpp; sourceTree = SOURCE_ROOT; };
 		890b7e87c7130efd5dfcc0c28d5f4c40 /* RangeSensorParameter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = RangeSensorParameter.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/RangeSensorParameter.h; sourceTree = SOURCE_ROOT; };
 		8aa4cba39a4d048b52578be20c020292 /* system_ticks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = system_ticks.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/system_ticks.h; sourceTree = SOURCE_ROOT; };
 		8d8de8fea0579951b84cc5e6166acb80 /* mConnection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = mConnection.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/mConnection.cpp; sourceTree = SOURCE_ROOT; };
 		8df06275ed462c9763c496899d33736d /* Lock.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Lock.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/Lock.h; sourceTree = SOURCE_ROOT; };
 		8ee9367ba8a6178f40d994e32dfb485f /* SocketSet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SocketSet.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/sdl/SocketSet.cpp; sourceTree = SOURCE_ROOT; };
-		8f5afda23de220f49ea17cbc7f5b9bb8 /* guiTypeButtonSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeButtonSlider.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeButtonSlider.cpp; sourceTree = SOURCE_ROOT; };
 		8f84f97306dcbd02d06abf50927cb8dd /* DeviceServer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DeviceServer.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/DeviceServer.h; sourceTree = SOURCE_ROOT; };
 		8fa87799db6ddf74d920e7a3d7167409 /* Semaphore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Semaphore.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/Semaphore.h; sourceTree = SOURCE_ROOT; };
 		931a11463b895a8141a9992e100dfc45 /* ticks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ticks.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/ticks.h; sourceTree = SOURCE_ROOT; };
 		942de154cbeda334630214488948dccc /* SDL_timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_timer.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_timer.h; sourceTree = SOURCE_ROOT; };
+		961de8b564ef22e65c9480ae3fc5936a /* ofxUI2DPad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUI2DPad.h; path = ../../../addons/ofxUI/src/ofxUI2DPad.h; sourceTree = SOURCE_ROOT; };
 		978d809dccc27d9b060b78836b83adf3 /* TcpipSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TcpipSocket.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/TcpipSocket.h; sourceTree = SOURCE_ROOT; };
-		9a234a6e775bfc7c47b1e336c269e9d6 /* guiTextBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTextBase.cpp; path = ../../../addons/ofxControlPanel/src/guiTextBase.cpp; sourceTree = SOURCE_ROOT; };
 		9aa448d55322490b21c3990921a6dda2 /* SDL_syswm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_syswm.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_syswm.h; sourceTree = SOURCE_ROOT; };
-		9ad86eb22381ac3deea8f304ebd9b5b2 /* guiBaseObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiBaseObject.h; path = ../../../addons/ofxControlPanel/src/guiBaseObject.h; sourceTree = SOURCE_ROOT; };
 		9ba9c4c906665512d66107eac2b29cbd /* ConnectionUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ConnectionUtils.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/ConnectionUtils.h; sourceTree = SOURCE_ROOT; };
 		9c466dff74a814933f1a1eb5525f3711 /* MonitorEventScheduler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MonitorEventScheduler.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/MonitorEventScheduler.h; sourceTree = SOURCE_ROOT; };
 		9c4fc35e82766210068c0a95dc9ecbe8 /* ScipHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ScipHandler.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/ScipHandler.h; sourceTree = SOURCE_ROOT; };
 		9c87686d20234f0574ea50c2d7aa01da /* SDL_endian.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_endian.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_endian.h; sourceTree = SOURCE_ROOT; };
-		9f91d61ed1c9efa6a2acdc47683684d1 /* guiValue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiValue.cpp; path = ../../../addons/ofxControlPanel/src/guiValue.cpp; sourceTree = SOURCE_ROOT; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -285,7 +253,7 @@
 		E45BE9770E8CC7DD009D7055 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
 		E45BE9790E8CC7DD009D7055 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
-		E4B69B5B0A3A1756003C02F2 /* example_ofxUrgDeviceDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example_ofxUrgDeviceDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69B5B0A3A1756003C02F2 /* example_roi_setting_UIDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example_roi_setting_UIDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
 		E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = testApp.cpp; path = src/testApp.cpp; sourceTree = SOURCE_ROOT; };
 		E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = testApp.h; path = src/testApp.h; sourceTree = SOURCE_ROOT; };
@@ -298,15 +266,13 @@
 		E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		E7E077E715D3B6510020DFD4 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		E7F985F515E0DE99003869B5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
-		FB60C17816CFDEAE00AE57EC /* libSDL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL.a; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/lib/libSDL.a; sourceTree = "<group>"; };
-		FB60C17A16CFDEC200AE57EC /* libSDL_net.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL_net.a; path = ../../../addons/ofxUrgDevice/libs/SDL_NET/1.2.8/lib/libSDL_net.a; sourceTree = "<group>"; };
+		FB62A99416E4EE5100A50A4D /* libSDL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL.a; path = ../libs/SDL/1.2.15/lib/libSDL.a; sourceTree = "<group>"; };
+		FB62A99716E4EE5E00A50A4D /* libSDL_net.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL_net.a; path = ../libs/SDL_NET/1.2.8/lib/libSDL_net.a; sourceTree = "<group>"; };
 		a00dd80e37987e22aecb7c807f93d65a /* Coordinate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Coordinate.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/coordinate/Coordinate.h; sourceTree = SOURCE_ROOT; };
 		a41496f24798212118ecbfa623962447 /* Angle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Angle.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/geometry/Angle.h; sourceTree = SOURCE_ROOT; };
 		a50c2a44f18585d6ae1af176eded681f /* MonitorEventScheduler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MonitorEventScheduler.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/MonitorEventScheduler.h; sourceTree = SOURCE_ROOT; };
-		a8f5d6546b2050363e0433580bf92e20 /* simpleColor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = simpleColor.cpp; path = ../../../addons/ofxControlPanel/src/simpleColor.cpp; sourceTree = SOURCE_ROOT; };
 		a93914d9894a42859a758495d15a6960 /* findUrgPorts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = findUrgPorts.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/findUrgPorts.h; sourceTree = SOURCE_ROOT; };
 		aada0616c5cd6b99755dbbf84090b55c /* RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = RingBuffer.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/RingBuffer.h; sourceTree = SOURCE_ROOT; };
-		ab1edbee566b226a8832e19128ad90cd /* guiIncludes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiIncludes.h; path = ../../../addons/ofxControlPanel/src/guiIncludes.h; sourceTree = SOURCE_ROOT; };
 		ab888c3d6363bc2b23aff06ea3b4a937 /* system_ticks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = system_ticks.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/system_ticks.cpp; sourceTree = SOURCE_ROOT; };
 		ab8c5ba16812990bb997da83c71cc662 /* SdlNetInit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SdlNetInit.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/sdl/SdlNetInit.cpp; sourceTree = SOURCE_ROOT; };
 		ac278e99ad9f506ab1e85386eae8fcb9 /* SDL_mouse.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_mouse.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_mouse.h; sourceTree = SOURCE_ROOT; };
@@ -320,46 +286,38 @@
 		b21e7e5f548eea92f368040bb1aa2f69 /* tinyxml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tinyxml.h; path = ../../../addons/ofxXmlSettings/libs/tinyxml.h; sourceTree = SOURCE_ROOT; };
 		b2d02c06483939eb020218109094dc8e /* Coordinate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Coordinate.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/Coordinate.h; sourceTree = SOURCE_ROOT; };
 		b35257c634f5b970c4934a70fb1e350c /* TcpipSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TcpipSocket.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/TcpipSocket.h; sourceTree = SOURCE_ROOT; };
-		b3c7247ed359be65b5319a20c435a72b /* guiTypeLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeLogger.h; path = ../../../addons/ofxControlPanel/src/guiTypeLogger.h; sourceTree = SOURCE_ROOT; };
+		b3ca0202b1a3b6d8920c2b1513b3b305 /* ofxUIButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIButton.h; path = ../../../addons/ofxUI/src/ofxUIButton.h; sourceTree = SOURCE_ROOT; };
 		b3d406a7bbf23270dabf6ba2e99faa5a /* SDL_keyboard.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_keyboard.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_keyboard.h; sourceTree = SOURCE_ROOT; };
 		b452d3e9704a157cc822abc436230dc6 /* SDL_name.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_name.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_name.h; sourceTree = SOURCE_ROOT; };
-		b64fb1a368486a378452239dad924307 /* guiTextBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTextBase.h; path = ../../../addons/ofxControlPanel/src/guiTextBase.h; sourceTree = SOURCE_ROOT; };
 		b70ae16532c50ac793ff0e6615e82a80 /* UrgDevice.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UrgDevice.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/UrgDevice.h; sourceTree = SOURCE_ROOT; };
-		b70d8c165cc65eee349e643f93853e41 /* guiTypeCustom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeCustom.h; path = ../../../addons/ofxControlPanel/src/guiTypeCustom.h; sourceTree = SOURCE_ROOT; };
 		b7f7a9f38006f5d39acdb3f8bb9bdbcb /* system_delay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = system_delay.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/system_delay.h; sourceTree = SOURCE_ROOT; };
 		ba36bd4654eaeb52ba7898d47b6bf37d /* SDL_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_thread.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_thread.h; sourceTree = SOURCE_ROOT; };
-		bdd9e60039a29dafb013cdbda2b6bd7f /* simpleFileLister.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = simpleFileLister.cpp; path = ../../../addons/ofxControlPanel/src/simpleFileLister.cpp; sourceTree = SOURCE_ROOT; };
-		bf1e9a470f4b02d30b8b1d188bd63663 /* guiTypeMultiToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeMultiToggle.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeMultiToggle.cpp; sourceTree = SOURCE_ROOT; };
+		bc6931447de6c359dddf21f174e83978 /* ofxUIMultiImageButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIMultiImageButton.h; path = ../../../addons/ofxUI/src/ofxUIMultiImageButton.h; sourceTree = SOURCE_ROOT; };
 		c0ebe697f7eed0581e9724b8d2b83d81 /* SdlInit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SdlInit.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/SdlInit.cpp; sourceTree = SOURCE_ROOT; };
-		c15bfba225f9d1cf5780bd5e550a6dc1 /* simpleLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = simpleLogger.cpp; path = ../../../addons/ofxControlPanel/src/simpleLogger.cpp; sourceTree = SOURCE_ROOT; };
+		c161222f68d4f7ce28bc4f61e6324dd3 /* ofxUIBaseDraws.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIBaseDraws.h; path = ../../../addons/ofxUI/src/ofxUIBaseDraws.h; sourceTree = SOURCE_ROOT; };
 		c2a3b254d7cc6b423d132310143e00a8 /* IsUsbCom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IsUsbCom.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/IsUsbCom.h; sourceTree = SOURCE_ROOT; };
+		c38d6dcc3ab9aae213a64015b75adbd4 /* ofxUIScrollableCanvas.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIScrollableCanvas.h; path = ../../../addons/ofxUI/src/ofxUIScrollableCanvas.h; sourceTree = SOURCE_ROOT; };
 		c43335c7129d25623266ad2c7654d866 /* begin_code.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = begin_code.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/begin_code.h; sourceTree = SOURCE_ROOT; };
-		c5bb6d7a0c3a9d760bc22bbbe966990f /* guiTypeVideo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeVideo.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeVideo.cpp; sourceTree = SOURCE_ROOT; };
+		c6305369801b450557086284030a4b6b /* ofxUISpectrum.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUISpectrum.h; path = ../../../addons/ofxUI/src/ofxUISpectrum.h; sourceTree = SOURCE_ROOT; };
+		c7b4b8ad9464a693a3683d0fd1a7b1fb /* ofxUISpacer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUISpacer.h; path = ../../../addons/ofxUI/src/ofxUISpacer.h; sourceTree = SOURCE_ROOT; };
 		c85338a4b7240a60a2bc5311753f300c /* delay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = delay.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/delay.h; sourceTree = SOURCE_ROOT; };
 		c95adf02eb4667b18a0a5ce9b0c7c5d5 /* UrgCtrl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UrgCtrl.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/UrgCtrl.h; sourceTree = SOURCE_ROOT; };
 		ca6ddbadda740e40a6fea08ddb040d86 /* UrgDevice.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UrgDevice.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/UrgDevice.h; sourceTree = SOURCE_ROOT; };
-		cbd6e9e8b022ab69fe7e454e8d843e39 /* guiTypeVideo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeVideo.h; path = ../../../addons/ofxControlPanel/src/guiTypeVideo.h; sourceTree = SOURCE_ROOT; };
 		cccad8fd4a2e8e05e11ae52549c163b0 /* RangeCaptureMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = RangeCaptureMode.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/urg/RangeCaptureMode.h; sourceTree = SOURCE_ROOT; };
+		ccec29a4351c40ba86f2e491c8c90bff /* ofxUIMinimalSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIMinimalSlider.h; path = ../../../addons/ofxUI/src/ofxUIMinimalSlider.h; sourceTree = SOURCE_ROOT; };
 		cd5f1b7241becb744361d360211d2178 /* SerialDevice.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SerialDevice.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/SerialDevice.h; sourceTree = SOURCE_ROOT; };
-		ce0c97e3f012f9fadfb5f2605746f103 /* guiTypeText.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeText.h; path = ../../../addons/ofxControlPanel/src/guiTypeText.h; sourceTree = SOURCE_ROOT; };
 		cf48501f987c8ac3ecc610726a7b09f6 /* SDL_error.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_error.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_error.h; sourceTree = SOURCE_ROOT; };
-		cfc7a1f656c34688d0ea0d0c1c3a4f77 /* guiTypeLabel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeLabel.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeLabel.cpp; sourceTree = SOURCE_ROOT; };
-		cfed64139bf049d0e6e85b064f9b17e3 /* guiTypeCustom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeCustom.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeCustom.cpp; sourceTree = SOURCE_ROOT; };
+		cf73e1af93352cf515e7c9f200d2542b /* ofxUIEventArgs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIEventArgs.h; path = ../../../addons/ofxUI/src/ofxUIEventArgs.h; sourceTree = SOURCE_ROOT; };
 		d0390d1d64818e653253e92fffe151d7 /* isUsingComDriver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = isUsingComDriver.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/isUsingComDriver.h; sourceTree = SOURCE_ROOT; };
-		d11af1710220d1059049eb194f95664f /* guiTypeMultiToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeMultiToggle.h; path = ../../../addons/ofxControlPanel/src/guiTypeMultiToggle.h; sourceTree = SOURCE_ROOT; };
 		d15687304c3d8163c6639259dd59dc74 /* log_printf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = log_printf.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/log_printf.h; sourceTree = SOURCE_ROOT; };
 		d259b18cc749bce48725dd06e61a310b /* DeviceServer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DeviceServer.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/DeviceServer.h; sourceTree = SOURCE_ROOT; };
 		d3408d8537d4cca6d69e84a91b5fb2c6 /* Angle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Angle.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/geometry/Angle.cpp; sourceTree = SOURCE_ROOT; };
-		d3ac91d60fbbeb4aa58b19722507214e /* guiTypeLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeLabel.h; path = ../../../addons/ofxControlPanel/src/guiTypeLabel.h; sourceTree = SOURCE_ROOT; };
-		d4944026cdfd5ced0a8eff8aa139e8a3 /* guiTypePanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypePanel.h; path = ../../../addons/ofxControlPanel/src/guiTypePanel.h; sourceTree = SOURCE_ROOT; };
-		d51169f112943bb2022a756aaa3cb7e4 /* guiCallbackValue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiCallbackValue.cpp; path = ../../../addons/ofxControlPanel/src/guiCallbackValue.cpp; sourceTree = SOURCE_ROOT; };
 		d550acc34f12481a95a0d574777183e1 /* SDL_quit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_quit.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_quit.h; sourceTree = SOURCE_ROOT; };
+		d66e735be796bc0675320dc8741a5a55 /* ofxUIImageSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIImageSlider.h; path = ../../../addons/ofxUI/src/ofxUIImageSlider.h; sourceTree = SOURCE_ROOT; };
 		d689ff903768e179466a2c964369ed10 /* SDL_main.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_main.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_main.h; sourceTree = SOURCE_ROOT; };
 		d6fb679d3f4a88be60455789e3dd9246 /* delay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = delay.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/delay.cpp; sourceTree = SOURCE_ROOT; };
 		d70128bee4852502298a591cfb4a4778 /* Thread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Thread.cpp; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/Thread.cpp; sourceTree = SOURCE_ROOT; };
 		d735172af9d9b72c19ddba545b6c8e64 /* SDL_mutex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_mutex.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_mutex.h; sourceTree = SOURCE_ROOT; };
-		d859bbb55780da0d9098dbd273a5558a /* guiColor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiColor.cpp; path = ../../../addons/ofxControlPanel/src/guiColor.cpp; sourceTree = SOURCE_ROOT; };
-		db609b0a16264158c61c979fbac10a4e /* guiTypeTextInput.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeTextInput.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeTextInput.cpp; sourceTree = SOURCE_ROOT; };
 		dd2fbe597b3d2e15adc37fc9f56e333c /* Lock.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Lock.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/Lock.h; sourceTree = SOURCE_ROOT; };
 		de1e7d528c08eb0f6d34f7175e482a49 /* UrgServer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UrgServer.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/UrgServer.h; sourceTree = SOURCE_ROOT; };
 		e15241464972098dfc01a737dbda5dbd /* SDL_events.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_events.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_events.h; sourceTree = SOURCE_ROOT; };
@@ -369,23 +327,26 @@
 		e570e5c336b98d217dac469a7b515055 /* SDL_cpuinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_cpuinfo.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_cpuinfo.h; sourceTree = SOURCE_ROOT; };
 		e5f5593dc9754afb30aee276ea23c794 /* RangeCaptureMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = RangeCaptureMode.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/RangeCaptureMode.h; sourceTree = SOURCE_ROOT; };
 		e602ca7f233beb98dd50a6d8e526bf04 /* SdlInit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SdlInit.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/SdlInit.h; sourceTree = SOURCE_ROOT; };
+		e65d547c2cd6a84fc9af15fa7ad1992e /* ofxUITextInput.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUITextInput.h; path = ../../../addons/ofxUI/src/ofxUITextInput.h; sourceTree = SOURCE_ROOT; };
+		e67bc70e17dda0081c8fd9dd234d7962 /* ofxUIImageButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIImageButton.h; path = ../../../addons/ofxUI/src/ofxUIImageButton.h; sourceTree = SOURCE_ROOT; };
 		e777c0fecd9ade0874fb5bf0fd68fc17 /* mUrgDevice.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mUrgDevice.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/mUrgDevice.h; sourceTree = SOURCE_ROOT; };
 		e7fc54d04278deea5bc731ea04e68189 /* SDL_version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SDL_version.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/SDL_version.h; sourceTree = SOURCE_ROOT; };
-		e82e4a22bf45f5cd82f6e180610a6c63 /* guiCustomImpl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiCustomImpl.h; path = ../../../addons/ofxControlPanel/src/guiCustomImpl.h; sourceTree = SOURCE_ROOT; };
 		e853021127a3210a9a6396c78914eeeb /* DeviceIpManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DeviceIpManager.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/DeviceIpManager.h; sourceTree = SOURCE_ROOT; };
-		e879411e3078dfeba57e2bab6fe00ebc /* guiCallback.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiCallback.h; path = ../../../addons/ofxControlPanel/src/guiCallback.h; sourceTree = SOURCE_ROOT; };
-		eac15439b87dc40c3609393b8b773852 /* guiTypeDrawable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiTypeDrawable.cpp; path = ../../../addons/ofxControlPanel/src/guiTypeDrawable.cpp; sourceTree = SOURCE_ROOT; };
 		ec62609f9d5b6004edfedf4979b042de /* SerialDevice.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SerialDevice.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/SerialDevice.h; sourceTree = SOURCE_ROOT; };
-		ed318057376feda301bd823e84e09b0f /* ofxControlPanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxControlPanel.cpp; path = ../../../addons/ofxControlPanel/src/ofxControlPanel.cpp; sourceTree = SOURCE_ROOT; };
-		edc1b8201077923461fe934ddb8ad83d /* guiTypeSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = guiTypeSlider.h; path = ../../../addons/ofxControlPanel/src/guiTypeSlider.h; sourceTree = SOURCE_ROOT; };
+		edfeb3d8c9183ade3facb4b57abfc6d4 /* ofxUICircleSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUICircleSlider.h; path = ../../../addons/ofxUI/src/ofxUICircleSlider.h; sourceTree = SOURCE_ROOT; };
+		f26e25f3872c0799d6433b99d59bdde1 /* ofxUILabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUILabel.h; path = ../../../addons/ofxUI/src/ofxUILabel.h; sourceTree = SOURCE_ROOT; };
 		f4d7aa8aff223678d9675097e61e1419 /* split.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = split.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/common/split.h; sourceTree = SOURCE_ROOT; };
 		f5228da723858258e91a12a1823b4ee1 /* Position.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Position.h; path = ../../../addons/ofxUrgDevice/libs/URG/include/cpp/Position.h; sourceTree = SOURCE_ROOT; };
-		f740139603d171038c4e1057e0394011 /* guiType2DSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = guiType2DSlider.cpp; path = ../../../addons/ofxControlPanel/src/guiType2DSlider.cpp; sourceTree = SOURCE_ROOT; };
 		f8c950208b7e6bce8d839f8d6cd79926 /* Connection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Connection.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/connection/Connection.h; sourceTree = SOURCE_ROOT; };
 		f9956f064dd5c338eb314c63a3776c99 /* MathUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MathUtils.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/system/MathUtils.h; sourceTree = SOURCE_ROOT; };
+		f9df961b5e7d4c4e1e5d029c1616b439 /* ofxUITextArea.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUITextArea.h; path = ../../../addons/ofxUI/src/ofxUITextArea.h; sourceTree = SOURCE_ROOT; };
 		fb9a128c2f1a7b94602fa2b5e73efacc /* LogNameHolder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = LogNameHolder.h; path = ../../../addons/ofxUrgDevice/libs/URG/src/cpp/monitor/LogNameHolder.h; sourceTree = SOURCE_ROOT; };
+		fbe1b379902b3c585dc8f7a21175a71f /* ofxUILabelButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUILabelButton.h; path = ../../../addons/ofxUI/src/ofxUILabelButton.h; sourceTree = SOURCE_ROOT; };
 		fc5da1c87211d4f6377da7199d8c5a1e /* tinyxmlparser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlparser.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp; sourceTree = SOURCE_ROOT; };
+		fccbdb55b98da36682809f0348522eab /* ofxUIWaveform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIWaveform.h; path = ../../../addons/ofxUI/src/ofxUIWaveform.h; sourceTree = SOURCE_ROOT; };
 		fd97632284660d50a6cf7a107e818399 /* close_code.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = close_code.h; path = ../../../addons/ofxUrgDevice/libs/SDL/1.2.15/include/SDL/close_code.h; sourceTree = SOURCE_ROOT; };
+		fda2832e78cfa22beec74160a7a68606 /* ofxUIFPS.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIFPS.h; path = ../../../addons/ofxUI/src/ofxUIFPS.h; sourceTree = SOURCE_ROOT; };
+		fdb4dd9779a251e9be220ae016e6d11a /* BoundingBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BoundingBox.cpp; path = src/BoundingBox.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -393,8 +354,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB60C17B16CFDEC200AE57EC /* libSDL_net.a in Frameworks */,
-				FB60C17916CFDEAE00AE57EC /* libSDL.a in Frameworks */,
+				FB62A99816E4EE5E00A50A4D /* libSDL_net.a in Frameworks */,
+				FB62A99516E4EE5100A50A4D /* libSDL.a in Frameworks */,
 				E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */,
 				E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */,
 				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
@@ -472,14 +433,6 @@
 				6d2c530e006a742eebccd83a1002b608 /* SDL_net.h */,
 			);
 			name = SDL;
-			sourceTree = "<group>";
-		};
-		3598f21374bfca3edce76f188ab795da /* ofxControlPanel */ = {
-			isa = PBXGroup;
-			children = (
-				f9e6b680913d8757e21c58b5941c7fa0 /* src */,
-			);
-			name = ofxControlPanel;
 			sourceTree = "<group>";
 		};
 		457fbfb41840c530c46d3048afbe90ce /* connection */ = {
@@ -680,6 +633,8 @@
 			children = (
 				3eb3d8fe0198933b2bb95477221c9fde /* ofxUrgDevice.cpp */,
 				e3287b873ac456e126afefaa2aec12a1 /* ofxUrgDevice.h */,
+				0221042a3dccfefb8c6d9a386ae4b145 /* UrgData.cpp */,
+				36b562f37bb24b37f0e620a7dcd1ae7b /* UrgData.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -688,7 +643,7 @@
 			isa = PBXGroup;
 			children = (
 				1f4fb5c423662b96adfdcc0badec1cb0 /* ofxXmlSettings */,
-				3598f21374bfca3edce76f188ab795da /* ofxControlPanel */,
+				a492ce86424ab8905550bfd831201a16 /* ofxUI */,
 				c304d05ceb942beee56ff5195b47ba77 /* ofxUrgDevice */,
 			);
 			name = addons;
@@ -744,15 +699,15 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
-				FB60C17A16CFDEC200AE57EC /* libSDL_net.a */,
-				FB60C17816CFDEAE00AE57EC /* libSDL.a */,
+				FB62A99716E4EE5E00A50A4D /* libSDL_net.a */,
+				FB62A99416E4EE5100A50A4D /* libSDL.a */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
 				E45BE5980E8CC70C009D7055 /* frameworks */,
-				E4B69B5B0A3A1756003C02F2 /* example_ofxUrgDeviceDebug.app */,
+				E4B69B5B0A3A1756003C02F2 /* example_roi_setting_UIDebug.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -762,6 +717,8 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* testApp.h */,
+				fdb4dd9779a251e9be220ae016e6d11a /* BoundingBox.cpp */,
+				3e67473c6a161c4dd09fd3735f166c87 /* BoundingBox.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -773,6 +730,14 @@
 				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
 			);
 			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		a492ce86424ab8905550bfd831201a16 /* ofxUI */ = {
+			isa = PBXGroup;
+			children = (
+				d60f85fe32e11f4003b80627506496ad /* src */,
+			);
+			name = ofxUI;
 			sourceTree = "<group>";
 		};
 		a8e7491988aeb9f4639d30320191f093 /* 1.2.8 */ = {
@@ -845,6 +810,54 @@
 			name = coordinate;
 			sourceTree = "<group>";
 		};
+		d60f85fe32e11f4003b80627506496ad /* src */ = {
+			isa = PBXGroup;
+			children = (
+				64c6f7ad018ffd34c7abb6f2a2c0cec0 /* ofxUI.h */,
+				961de8b564ef22e65c9480ae3fc5936a /* ofxUI2DPad.h */,
+				c161222f68d4f7ce28bc4f61e6324dd3 /* ofxUIBaseDraws.h */,
+				2dd185513a2875ec8a07867018e8bd02 /* ofxUIBiLabelSlider.h */,
+				b3ca0202b1a3b6d8920c2b1513b3b305 /* ofxUIButton.h */,
+				4ff2f2d5a01ada37a9ade20fb41e7560 /* ofxUICanvas.h */,
+				edfeb3d8c9183ade3facb4b57abfc6d4 /* ofxUICircleSlider.h */,
+				15e69017b5db282ef100ee15e7bce594 /* ofxUICustomImageButton.h */,
+				531d8d09739d338239967b3a215e9cfd /* ofxUIDropDownList.h */,
+				cf73e1af93352cf515e7c9f200d2542b /* ofxUIEventArgs.h */,
+				fda2832e78cfa22beec74160a7a68606 /* ofxUIFPS.h */,
+				664d65407be633c038fa9498bcf62aa7 /* ofxUIFPSSlider.h */,
+				4ed7bc3af72f6be8f0917a303bedb573 /* ofxUIImage.h */,
+				e67bc70e17dda0081c8fd9dd234d7962 /* ofxUIImageButton.h */,
+				4aea0d08c3b0323fedc8d9749c9217ea /* ofxUIImageSampler.h */,
+				d66e735be796bc0675320dc8741a5a55 /* ofxUIImageSlider.h */,
+				2d394124f88f348aa4142dcfb64b4bd1 /* ofxUIImageToggle.h */,
+				f26e25f3872c0799d6433b99d59bdde1 /* ofxUILabel.h */,
+				fbe1b379902b3c585dc8f7a21175a71f /* ofxUILabelButton.h */,
+				6248640c06b47042bb5bd3f21e730c74 /* ofxUILabelToggle.h */,
+				ccec29a4351c40ba86f2e491c8c90bff /* ofxUIMinimalSlider.h */,
+				5c48e3511951bb86fa9aa6420fa60cf9 /* ofxUIMovingGraph.h */,
+				bc6931447de6c359dddf21f174e83978 /* ofxUIMultiImageButton.h */,
+				431d6bbf1ef545b203e4cae1dda8512f /* ofxUIMultiImageSlider.h */,
+				1902452f5e510a2dbc1e5bd6d62db983 /* ofxUIMultiImageToggle.h */,
+				15c99204ff4d8d72ad034b63f410265d /* ofxUINumberDialer.h */,
+				4c9b919b991b4e45bc5dc0dbf09c9904 /* ofxUIRadio.h */,
+				856bf5ab0322d0689ee63829f6f27a37 /* ofxUIRangeSlider.h */,
+				1e29c7e8c47e3e2db1c5876646df436b /* ofxUIRectangle.h */,
+				885850b62fad08eb1d2f0bf4a56e5e01 /* ofxUIRotarySlider.h */,
+				c38d6dcc3ab9aae213a64015b75adbd4 /* ofxUIScrollableCanvas.h */,
+				470b5d2ac2f616d10b2e6025718527c8 /* ofxUISlider.h */,
+				c7b4b8ad9464a693a3683d0fd1a7b1fb /* ofxUISpacer.h */,
+				c6305369801b450557086284030a4b6b /* ofxUISpectrum.h */,
+				f9df961b5e7d4c4e1e5d029c1616b439 /* ofxUITextArea.h */,
+				e65d547c2cd6a84fc9af15fa7ad1992e /* ofxUITextInput.h */,
+				4117b8c24d49837d3df9c23bd2405bdc /* ofxUIToggle.h */,
+				8178eb9aa3c0268331af3af347ca9d15 /* ofxUIToggleMatrix.h */,
+				fccbdb55b98da36682809f0348522eab /* ofxUIWaveform.h */,
+				32bd050a579633adbca5af6b202f651b /* ofxUIWidget.h */,
+				02677fa320d6c63b228a7562514b9d55 /* ofxUIWidgetWithLabel.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
 		dc15b168261aed9a320e09618193923e /* urg */ = {
 			isa = PBXGroup;
 			children = (
@@ -900,78 +913,12 @@
 			name = system;
 			sourceTree = "<group>";
 		};
-		f9e6b680913d8757e21c58b5941c7fa0 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				6b7d7ecc5a662345912c93d5d7bfc68e /* guiBaseObject.cpp */,
-				9ad86eb22381ac3deea8f304ebd9b5b2 /* guiBaseObject.h */,
-				0623a592865192daf866ec80ca011055 /* guiCallback.cpp */,
-				e879411e3078dfeba57e2bab6fe00ebc /* guiCallback.h */,
-				d51169f112943bb2022a756aaa3cb7e4 /* guiCallbackValue.cpp */,
-				785ef65f14138ab610c0595e38a0016a /* guiCallbackValue.h */,
-				d859bbb55780da0d9098dbd273a5558a /* guiColor.cpp */,
-				6ddf13a4ef64524a9026ef50286b9127 /* guiColor.h */,
-				e82e4a22bf45f5cd82f6e180610a6c63 /* guiCustomImpl.h */,
-				ab1edbee566b226a8832e19128ad90cd /* guiIncludes.h */,
-				9a234a6e775bfc7c47b1e336c269e9d6 /* guiTextBase.cpp */,
-				b64fb1a368486a378452239dad924307 /* guiTextBase.h */,
-				f740139603d171038c4e1057e0394011 /* guiType2DSlider.cpp */,
-				8131428d7458ec1392831f6c7ddeae34 /* guiType2DSlider.h */,
-				8f5afda23de220f49ea17cbc7f5b9bb8 /* guiTypeButtonSlider.cpp */,
-				4ed7010a59cfbff66dc17a56b3444a1f /* guiTypeButtonSlider.h */,
-				3d66885fa7c19b7830ee08edd67006c6 /* guiTypeChartPlotter.cpp */,
-				3a18b217ea10ea8e3c7f6508f5b5186d /* guiTypeChartPlotter.h */,
-				cfed64139bf049d0e6e85b064f9b17e3 /* guiTypeCustom.cpp */,
-				b70d8c165cc65eee349e643f93853e41 /* guiTypeCustom.h */,
-				eac15439b87dc40c3609393b8b773852 /* guiTypeDrawable.cpp */,
-				815c422e69c6ffeeb97d1b0ad3d5ee55 /* guiTypeDrawable.h */,
-				7e8a185410d2b5002305515abd6cb8a1 /* guiTypeFileLister.cpp */,
-				29897723d8c99bc3f4c66556d572e651 /* guiTypeFileLister.h */,
-				cfc7a1f656c34688d0ea0d0c1c3a4f77 /* guiTypeLabel.cpp */,
-				d3ac91d60fbbeb4aa58b19722507214e /* guiTypeLabel.h */,
-				589362a07aeb006b1b8be93fca0c021a /* guiTypeLogger.cpp */,
-				b3c7247ed359be65b5319a20c435a72b /* guiTypeLogger.h */,
-				bf1e9a470f4b02d30b8b1d188bd63663 /* guiTypeMultiToggle.cpp */,
-				d11af1710220d1059049eb194f95664f /* guiTypeMultiToggle.h */,
-				08549d86f2263bafa64ae5d19077e4e9 /* guiTypePanel.cpp */,
-				d4944026cdfd5ced0a8eff8aa139e8a3 /* guiTypePanel.h */,
-				5cd68ca8fe136c3be208703b64644d80 /* guiTypeSlider.cpp */,
-				edc1b8201077923461fe934ddb8ad83d /* guiTypeSlider.h */,
-				25f371915e6771cea7595d51145f19cc /* guiTypeText.cpp */,
-				ce0c97e3f012f9fadfb5f2605746f103 /* guiTypeText.h */,
-				4f64d7dd70c6b5b1fc395ded45f21650 /* guiTypeTextDropDown.cpp */,
-				2d692a0570a93567d01b6d9d82742863 /* guiTypeTextDropDown.h */,
-				db609b0a16264158c61c979fbac10a4e /* guiTypeTextInput.cpp */,
-				6fcdf1191d78db4e5238ac4679f80383 /* guiTypeTextInput.h */,
-				62121ab82e8c23f11bbc56e4abc4727d /* guiTypeToggle.cpp */,
-				82741786e8e6961c9b9ea2dff35d4d57 /* guiTypeToggle.h */,
-				76ac9361add00e0a97505518e72834fa /* guiTypeVairableLister.cpp */,
-				1445907105c17263f76087d0df1a696e /* guiTypeVairableLister.h */,
-				c5bb6d7a0c3a9d760bc22bbbe966990f /* guiTypeVideo.cpp */,
-				cbd6e9e8b022ab69fe7e454e8d843e39 /* guiTypeVideo.h */,
-				9f91d61ed1c9efa6a2acdc47683684d1 /* guiValue.cpp */,
-				4bc67dbb14ff67076137af39e582178d /* guiValue.h */,
-				0d1ff930b42368e7df128f5cd1ea7466 /* guiVariablePointer.h */,
-				1e17b07da944407ec011b0b794da1a9e /* guiXmlValue.h */,
-				433f1a9af67f62a5c34f5c8fc2781d43 /* ofxAutoControlPanel.h */,
-				ed318057376feda301bd823e84e09b0f /* ofxControlPanel.cpp */,
-				6f5e052edc8e42eb2bebfbb2c486ea9f /* ofxControlPanel.h */,
-				a8f5d6546b2050363e0433580bf92e20 /* simpleColor.cpp */,
-				49ca6f47242293daf5a715a8d69ddebe /* simpleColor.h */,
-				bdd9e60039a29dafb013cdbda2b6bd7f /* simpleFileLister.cpp */,
-				1d8b9a8480a5b3d82cefff066dafba2e /* simpleFileLister.h */,
-				c15bfba225f9d1cf5780bd5e550a6dc1 /* simpleLogger.cpp */,
-				7b621bd2f5de1ff903fb7f2c711471bb /* simpleLogger.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4B69B5A0A3A1756003C02F2 /* example_ofxUrgDevice */ = {
+		E4B69B5A0A3A1756003C02F2 /* example_roi_setting_UI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example_ofxUrgDevice" */;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example_roi_setting_UI" */;
 			buildPhases = (
 				E4B69B580A3A1756003C02F2 /* Sources */,
 				E4B69B590A3A1756003C02F2 /* Frameworks */,
@@ -983,9 +930,9 @@
 			dependencies = (
 				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
 			);
-			name = example_ofxUrgDevice;
+			name = example_roi_setting_UI;
 			productName = myOFApp;
-			productReference = E4B69B5B0A3A1756003C02F2 /* example_ofxUrgDeviceDebug.app */;
+			productReference = E4B69B5B0A3A1756003C02F2 /* example_roi_setting_UIDebug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -993,7 +940,7 @@
 /* Begin PBXProject section */
 		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example_ofxUrgDevice" */;
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example_roi_setting_UI" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1014,7 +961,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				E4B69B5A0A3A1756003C02F2 /* example_ofxUrgDevice */,
+				E4B69B5A0A3A1756003C02F2 /* example_roi_setting_UI */,
 			);
 		};
 /* End PBXProject section */
@@ -1052,38 +999,13 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */,
+				13a5cf8f884920de9f2b5881c649f9b1 /* BoundingBox.cpp in Sources */,
 				63b57ac5bf4ef088491e0317dbb2ecaa /* ofxXmlSettings.cpp in Sources */,
 				933a2227713c720ceff80fd967d0a8ee /* tinyxml.cpp in Sources */,
 				9d44dc88ef9e7991b4a09951e2e4769f /* tinyxmlerror.cpp in Sources */,
 				5a4349e9754d6fa14c0f2a3a1abc30b6 /* tinyxmlparser.cpp in Sources */,
-				cba68ad61765b24c0bfd9886a8523d3f /* guiBaseObject.cpp in Sources */,
-				7830622d2831d72613a1d3ce28b57561 /* guiCallback.cpp in Sources */,
-				e8a48d51b598b0e8012410d2e2815117 /* guiCallbackValue.cpp in Sources */,
-				62884d3fce003c390f94ab7d10c8ebbd /* guiColor.cpp in Sources */,
-				5fd445ed4a5bb42065a63ec587255c59 /* guiTextBase.cpp in Sources */,
-				c6a9ec27e2608c434bca1db9670983ad /* guiType2DSlider.cpp in Sources */,
-				0d98e43ab0144630ef2206b3f3fdd8ad /* guiTypeButtonSlider.cpp in Sources */,
-				314d78311d80062369e1827b37eb323a /* guiTypeChartPlotter.cpp in Sources */,
-				495a92a35ac1d16e07ca45c7895ac059 /* guiTypeCustom.cpp in Sources */,
-				41d65a061e305afd52e53551477eff71 /* guiTypeDrawable.cpp in Sources */,
-				da78a8ae11597b5e43dfe903bdabcbcd /* guiTypeFileLister.cpp in Sources */,
-				5ab5747e5ef615d728fe9c6770d36338 /* guiTypeLabel.cpp in Sources */,
-				eda6787f2e8def6246cf24d36747a7f3 /* guiTypeLogger.cpp in Sources */,
-				cbe57d7c657c0b7fd01028646410940e /* guiTypeMultiToggle.cpp in Sources */,
-				9d97fdf450cc66e11f05e2794f9b9cc8 /* guiTypePanel.cpp in Sources */,
-				4a71e37d7f36f23aa123eb0b7298fbd7 /* guiTypeSlider.cpp in Sources */,
-				9b36fec1f9a02af09246572b4e0e915e /* guiTypeText.cpp in Sources */,
-				2b11014060cfa00ea494fbc6fbb71886 /* guiTypeTextDropDown.cpp in Sources */,
-				8c3ba55a2996325bb57889a37b609e11 /* guiTypeTextInput.cpp in Sources */,
-				849341dbc7a5374c26ac05244b29bc9e /* guiTypeToggle.cpp in Sources */,
-				871af250136390c0a8f657da3eb6dcc9 /* guiTypeVairableLister.cpp in Sources */,
-				dbf52d494f6e2499e17acbf8785cfb84 /* guiTypeVideo.cpp in Sources */,
-				41bcf7021939202f70e232a1937a7536 /* guiValue.cpp in Sources */,
-				e8999cbb9c2c6f093a5bd013c99eaebb /* ofxControlPanel.cpp in Sources */,
-				8a230fb96662fb1ab1611b8abe9f6648 /* simpleColor.cpp in Sources */,
-				9fef7afad4ddffd2a55aa54a1c323431 /* simpleFileLister.cpp in Sources */,
-				d41b30cf66da734f99a45d5e96d168e4 /* simpleLogger.cpp in Sources */,
 				7fbc39f6376295d13a43542bdd859a02 /* ofxUrgDevice.cpp in Sources */,
+				0713ead0d3ac1d59f128d463fda1d9b1 /* UrgData.cpp in Sources */,
 				aad0ac1678031eb62e74a0455a56f878 /* split.cpp in Sources */,
 				2020418387d4185d94738ee0b1459479 /* ConnectionUtils.cpp in Sources */,
 				d0e614d0a8df45b77fbdf1f65eee8ca4 /* FindComPorts.cpp in Sources */,
@@ -1158,10 +1080,11 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
+					src,
 					../../../addons/ofxXmlSettings/libs,
 					../../../addons/ofxXmlSettings/src,
-					../../../addons/ofxControlPanel/libs,
-					../../../addons/ofxControlPanel/src,
+					../../../addons/ofxUI/libs,
+					../../../addons/ofxUI/src,
 					../../../addons/ofxUrgDevice/libs,
 					../../../addons/ofxUrgDevice/libs/SDL,
 					../../../addons/ofxUrgDevice/libs/SDL/1.2.15,
@@ -1222,10 +1145,11 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
+					src,
 					../../../addons/ofxXmlSettings/libs,
 					../../../addons/ofxXmlSettings/src,
-					../../../addons/ofxControlPanel/libs,
-					../../../addons/ofxControlPanel/src,
+					../../../addons/ofxUI/libs,
+					../../../addons/ofxUI/src,
 					../../../addons/ofxUrgDevice/libs,
 					../../../addons/ofxUrgDevice/libs/SDL,
 					../../../addons/ofxUrgDevice/libs/SDL/1.2.15,
@@ -1343,13 +1267,11 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_52)",
-					../../../addons/ofxUrgDevice/libs/SDL_NET/1.2.8/lib/,
-					../../../addons/ofxUrgDevice/libs/SDL/1.2.15/lib/,
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 				);
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SYSTEM_APPS_DIR)/openFrameworks/of_v0073_osx_release/addons/ofxUrgDevice/libs/SDL/1.2.15/lib\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SYSTEM_APPS_DIR)/openFrameworks/of_v0073_osx_release/addons/ofxUrgDevice/libs/SDL_NET/1.2.8/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../libs/SDL/1.2.15/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../libs/SDL_NET/1.2.8/lib\"";
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				WRAPPER_EXTENSION = app;
@@ -1435,13 +1357,11 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_49)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
-					../../../addons/ofxUrgDevice/libs/SDL_NET/1.2.8/lib/libSDL_net.a,
-					../../../addons/ofxUrgDevice/libs/SDL/1.2.15/lib/libSDL.a,
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 				);
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SYSTEM_APPS_DIR)/openFrameworks/of_v0073_osx_release/addons/ofxUrgDevice/libs/SDL/1.2.15/lib\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SYSTEM_APPS_DIR)/openFrameworks/of_v0073_osx_release/addons/ofxUrgDevice/libs/SDL_NET/1.2.8/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../libs/SDL/1.2.15/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../libs/SDL_NET/1.2.8/lib\"";
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1451,7 +1371,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example_ofxUrgDevice" */ = {
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example_roi_setting_UI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B4E0A3A1720003C02F2 /* Debug */,
@@ -1460,7 +1380,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example_ofxUrgDevice" */ = {
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example_roi_setting_UI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B600A3A1757003C02F2 /* Debug */,

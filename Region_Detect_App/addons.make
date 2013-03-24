@@ -1,3 +1,3 @@
 ofxXmlSettings
-ofxControlPanel
+ofxUI
 ofxUrgDevice

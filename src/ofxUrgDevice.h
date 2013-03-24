@@ -1,5 +1,6 @@
 #include <memory>
 #include <vector>
+#include "UrgData.h"
 
 using std::vector;
 
@@ -13,15 +14,14 @@ public:
     void setup(const std::string& device);
     void update();
     void draw(float x, float y) const;
-    void draw(float x, float y, int mode) const;
-    void drawDifference(float x, float y) const;
+    void drawCoordinate(float x, float y) const;
     void connect();
     void disconnect();
     
-    void setThresholds(bool bNear, bool bFar, bool bDiff, int near_th, int far_th, int diff_th);
+    void setSensorAngle(float degree);
     
     std::vector<std::string> getDevices() const;
-    std::vector<long> getData() const;
+    ofxUrg::UrgData getData() const;
     long minDistance() const;
     long maxDistance() const;
     int maxScanIndex() const;
@@ -30,5 +30,7 @@ public:
     
 private:
     struct Impl;
-    std::auto_ptr<Impl> pImpl;
+//    std::auto_ptr<Impl> pImpl;
+    Impl* pImpl;
+    
 };
